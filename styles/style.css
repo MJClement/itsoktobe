@@ -1,0 +1,372 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+@font-face {
+    font-family: "bluu_nexttitling";
+    src: url(../fonts/'BluuNext-Titling.ttf');
+
+}
+
+@font-face {
+    font-family: "Sporting Grotesque";
+    src: url('../fonts/Sporting_Grotesque-Regular_web.ttf');
+}
+
+@font-face {
+    font-family: "bluu_nexttitling Bold";
+    src: url('../fonts/bluunext-bold.ttf');
+}
+
+@font-face {
+    font-family: "Dusha";
+    src: url('../fonts/Dusha - FIFA World Cup 2018.ttf');
+}
+
+
+@font-face {
+    font-family: "Millimetre";
+    src: url('../fonts/Millimetre-Bold_web.ttf');
+}
+/*Acco*/
+
+h1{
+  font-family:"Sporting Grotesque";
+  font-weight: 10;
+  font-size: 0.75em;
+}
+
+
+h2 {
+  font-family:"Sporting Grotesque";
+  font-size: 3em;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke-width: 0.02em;
+   -webkit-text-stroke-color: black;
+}
+
+h3{
+  font: "times";
+  font-size: 6pt;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1200px) {
+h3{
+  font: "times";
+  font-size: 0.55vw;
+  font-weight: 400;
+}
+}
+
+h4 {
+  font-family: "bluu_nexttitling";
+  font-size: 2.2em;
+  line-height: 1;
+  letter-spacing: -0.2vw;
+}
+
+@media screen and (min-width: 600px) {
+h4 {
+  font-family: "bluu_nexttitling";
+  font-size: 2.75em;
+  line-height: 1;
+  letter-spacing: -0.2vw;
+}
+}
+
+.sm-page-container {
+  max-width: 210mm;
+  max-height:237mm;
+  margin: auto;
+  overflow-y: hidden;
+  box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.35);
+  position: relative;
+
+}
+
+.edition-title{
+  position: absolute;
+  display: none;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 600px) {
+.edition-title{
+  position: absolute;
+  display: inline-block;
+  margin-left: 10px;
+}
+}
+
+.edition-title-right{
+  position: absolute;
+  display: inline-block;
+  right: 5vw;
+  top: -30px;
+  margin-right: 20px;
+  text-align: left;
+  height: 50px
+}
+
+@media screen and (min-width: 600px) {
+.edition-title-right{
+  position: absolute;
+  display: inline-block;
+  right: 0.05vw;
+  top: -30px;
+  margin-right: 20px;
+  text-align: left;
+  height: 50px
+}
+}
+
+.definition-container {
+  width: 50%;
+	position: relative;
+  z-index: 21;
+  display:inline-block;
+  margin-left: 8.5%;
+  margin-top: 0.50%;
+
+}
+
+.header-container{
+  margin-left: 8.5%;
+  width: auto;
+  top:-5vh;
+  height: auto;
+	position: relative;
+  z-index: 20;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+
+
+.ac-container label {
+    position: relative;
+    z-index: 20;
+    display: block;
+    cursor: pointer;
+    height: 15mm;
+}
+
+.label-one{
+  background: linear-gradient(to right, #E8B5D3 0%,#E8B5D3 50%,#000000 50%,#F7EC25 50%,#F7EC25 100%);
+}
+
+.label-two{
+  background: linear-gradient(to right, #7DC242 0%,#7DC242 50%,#000000 50%,#4368B1 50%,#4368B1 100%);
+}
+
+.label-three{
+  background: linear-gradient(to right, #E9282C 0%,#E9282C 50%,#000000 50%,#F47821 50%,#F47821 100%);
+}
+
+.label-four{
+  background: linear-gradient(to right, #F7EC25 0%,#F7EC25 50%,#000000 50%,#4CB1E4 50%,#4CB1E4 100%);
+}
+
+.ac-container {
+    width: 100%;
+}
+
+.ac-container input {
+    display: none;
+}
+
+.ac-container article {
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    z-index: 10;
+    transition: height 0.3s ease-in-out,box-shadow 0.0s linear;
+}
+
+.ac-container article p {
+    font-size: 10px;
+    font: normal normal 12px 'Open Sans';
+}
+
+.ac-container input:checked ~ article {
+    transition: height 0.3s ease-in-out,box-shadow 0.0s linear;
+}
+
+.ac-container input:checked ~ article.ac-large {
+    height: 177mm;
+    overflow: scroll;
+}
+
+.inner{
+  animation: rotation 5s infinite linear;
+  position: relative;
+  display: inline-block;
+  z-index: 27;
+  width: 85px;
+  right: -150px;
+  top:-180px;
+  float:right;
+
+}
+
+@media screen and (min-width: 1350px) {
+.inner{
+  animation: rotation 5s infinite linear;
+  position: relative;
+  display: inline-block;
+  z-index: 27;
+  width: 85px;
+  right: -147px;
+  top:25px;
+  float:right;
+
+}
+}
+
+@media screen and (max-width: 600px) {
+.inner{
+  animation: rotation 5s infinite linear;
+  position: relative;
+  display: inline-block;
+  z-index: 27;
+  width: 85px;
+  right: -197px;
+  top:-50px;
+  float:right;
+
+}
+}
+
+@media screen and (min-width: 1350px) {
+.outer{
+  animation: rotation 10s infinite linear;
+  animation-direction: reverse;
+  position: relative;
+  display: inline-block;
+  z-index: 26;
+  float: right;
+  width: 250px;
+  top: -60px;
+  right: 20px;
+
+}
+}
+
+.outer{
+  animation: rotation 10s infinite linear;
+  animation-direction: reverse;
+  position: relative;
+  display: inline-block;
+  z-index: 26;
+  float: right;
+  width: 250px;
+  top: -55px;
+  right: 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+.outer{
+  animation: rotation 10s infinite linear;
+  animation-direction: reverse;
+  position: relative;
+  display: inline-block;
+  z-index: 26;
+  float: right;
+  width: 250px;
+  top: -130px;
+  right: -30px;
+
+}
+}
+
+
+.page-container-one{
+  background: linear-gradient(to right, #E8B5D3 0%,#E8B5D3 50%,#000000 50%,#F7EC25 50%,#F7EC25 100%);
+}
+
+.page-container-two{
+    background: linear-gradient(to right, #7DC242 0%,#7DC242 50%,#000000 50%,#4368B1 50%,#4368B1 100%);
+}
+
+.page-container-three{
+  background: linear-gradient(to right, #E9282C 0%,#E9282C 50%,#000000 50%,#F47821 50%,#F47821 100%);
+}
+
+.page-container-four{
+  background: linear-gradient(to right, #F7EC25 0%,#F7EC25 50%,#000000 50%,#4CB1E4 50%,#4CB1E4 100%);
+}
+
+.left-rectangle-one{
+  width: 50%;
+  height: 297mm;
+  background-color: #E8B5D3;
+  position: relative;
+  display: inline-block;
+}
+
+.right-rectangle-one{
+  float: right;
+  width: 50%;
+  height: 297mm;
+  background-color: #F7EC25;
+  display: inline-block;
+}
+
+.left-rectangle-two{
+  width: 50%;
+  height: 297mm;
+  background-color: #7DC242;
+  position: relative;
+  display: inline-block;
+}
+
+.right-rectangle-two{
+  float: right;
+  width: 50%;
+  height: 297mm;
+  background-color: #4368B1;
+  display: inline-block;
+}
+
+.left-rectangle-three{
+  width: 50%;
+  height: 297mm;
+  background-color: #E9282C;
+  position: relative;
+  display: inline-block;
+}
+
+.right-rectangle-three{
+  float: right;
+  width: 50%;
+  height: 297mm;
+  background-color: #F47821;
+  display: inline-block;
+}
+
+.left-rectangle-four{
+  width: 50%;
+  height: 297mm;
+  background-color: #F7EC25;
+  position: relative;
+  display: inline-block;
+}
+
+.right-rectangle-four{
+  float: right;
+  width: 50%;
+  height: 297mm;
+  background-color: #4CB1E4;
+  display: inline-block;
+}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+}
