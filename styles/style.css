@@ -6,7 +6,7 @@
 /* Global Styles go here */
 @font-face {
     font-family: "bluu_nexttitling";
-    src: url(../fonts/'BluuNext-Titling.ttf');
+    src: url('../fonts/BluuNext-Titling.ttf');
 
 }
 
@@ -31,6 +31,10 @@
     src: url('../fonts/Millimetre-Bold_web.ttf');
 }
 /*Acco*/
+body{
+  background: snow;
+
+}
 
 h1{
   font-family:"Sporting Grotesque";
@@ -200,6 +204,14 @@ h4 {
 .ac-container input:checked ~ article.ac-large {
     height: 177mm;
     overflow: scroll;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .inner{
