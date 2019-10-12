@@ -33,8 +33,7 @@
 /*Acco*/
 body{
   background: snow;
-  overflow-x: none;
-
+  overflow-y: none;
 }
 
 h1{
@@ -283,6 +282,8 @@ p {
 
   }
 }
+
+
 
 .description {
   writing-mode: vertical-lr;
