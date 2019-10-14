@@ -818,6 +818,18 @@ p {
 
   }
 
+  /* .image2{
+    z-index: 29;
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    top: 206px;
+    left: 31%;
+    margin-left: 0px;
+    overflow-x: none;
+
+  } */
+
   .imagethree{
     z-index: 25;
     position: relative;
@@ -1074,6 +1086,7 @@ p {
     left: 12%;
     width: 151px;
     overflow-x: none;
+    pointer-events: none;
   }
 
   .rectangle-small-right-four {
@@ -1088,6 +1101,7 @@ p {
     left: 11%;
     width: 151px;
     overflow-x: none;
+    pointer-events: none;
   }
 
   @media screen and (min-width: 600px) {
@@ -1220,7 +1234,7 @@ p {
   z-index: 45;
   color: #4CB1E4;
   top:-500px;
-  left: -395px;
+  left: -405px;
 }
 
 .arrow-right-four {
@@ -1229,7 +1243,7 @@ p {
   z-index: 45;
   color: #F7EC25;
   top:-500px;
-  left: -145px;
+  left: -167px;
 }
 
 .arrow-left-three {
@@ -1238,7 +1252,7 @@ p {
   z-index: 45;
   color: #F47821;
   top:-450px;
-  left: -395px;
+  left: -405px;
 }
 
 .arrow-right-three {
@@ -1247,7 +1261,7 @@ p {
   z-index: 45;
   color: #E9282C;
   top:-450px;
-  left: -145px;
+  left: -167px;
 }
 
 .arrow-left-two {
@@ -1256,7 +1270,7 @@ p {
   z-index: 45;
   color: #4368B1;
   top:-500px;
-  left: -395px;
+  left: -405px;
 }
 
 .arrow-right-two {
@@ -1265,7 +1279,7 @@ p {
   z-index: 45;
   color: #7DC242;
   top:-500px;
-  left: -145px;
+  left: -167px;
 }
 
 
@@ -1275,7 +1289,7 @@ p {
   z-index: 45;
   color: #F7EC25;
   top:-450px;
-  left: -395px;
+  left: -405px;
 }
 
 .arrow-right-one {
@@ -1284,7 +1298,7 @@ p {
   z-index: 45;
   color: #E8B5D3;
   top:-450px;
-  left: -145px;
+  left: -167px;
 }
 
 
@@ -1568,6 +1582,14 @@ p {
   pointer-events: none;
 }
 
+button{
+  background: none;
+  border: none;
+}
+
+button:active{
+  color: white;
+}
 /*
 
 .arrow-right {
