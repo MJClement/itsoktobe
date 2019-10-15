@@ -1366,7 +1366,7 @@ p {
     left: -281px;
   }
 
-  
+
   .arrow-right-three {
     position: relative;
     display: inline-block;
@@ -1586,10 +1586,12 @@ p {
 button{
   background: none;
   border: none;
+  outline: none;
 }
 
 button:active{
   color: white;
+  outline: none;
 }
 /*
 
