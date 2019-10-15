@@ -126,7 +126,7 @@ p {
 @media screen and (max-width: 600px) {
   .sm-page-container {
     max-width: 210mm;
-    height:190mm;
+    height:175mm;
     margin: auto;
     overflow-y: hidden;
     box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.35);
@@ -631,7 +631,7 @@ p {
 
 @media screen and (max-width: 600px) {
   .ac-container input:checked ~ article.ac-large {
-      height: 130mm;
+      height: 115mm;
       overflow-y: scroll;
       overflow-x: hidden;
   }
