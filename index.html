@@ -6,14 +6,26 @@
   <meta name="viewport" content="initial-scale=1">
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://gist.github.com/tiaanduplessis/141ef2403c27651632e6d94f19e9e43f.js"></script>
 
 </head>
   <body>
 
     <div class="sm-page-container">
 
+      <div id="preloader">
+      <div id="status">&nbsp;</div>
+      </div>
 
+      <script type="text/javascript">
+          //<![CDATA[
+              $(window).load(function() { // makes sure the whole site is loaded
+                  $('#status').fadeOut(); // will first fade out the loading animation
+                  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                  $('body').delay(350).css({'overflow':'visible'});
+              })
+          //]]>
+      </script>
 
       <section class="ac-container">
       				<div>
@@ -373,13 +385,6 @@
       					</article>
       				</div>
       			</section>
-
-            <div class="loader-wrapper">
-              <img class="loader" src="./assets/circle.png">
-            </div>
-            
-
-
     </div>
 
   </body>
