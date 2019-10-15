@@ -624,14 +624,16 @@ p {
 
 .ac-container input:checked ~ article.ac-large {
     height: 177mm;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
 @media screen and (max-width: 600px) {
   .ac-container input:checked ~ article.ac-large {
       height: 130mm;
-      overflow: scroll;
+      overflow-y: scroll;
+      overflow-x: hidden;
   }
 }
 
@@ -1418,7 +1420,7 @@ p {
 
 @media screen and (max-width: 600px) {
   .video-four{
-    top: 2650px;
+    top: 2625px;
     left: 32px;
     height: 250px;
     position: absolute;
@@ -1493,7 +1495,7 @@ p {
 @media screen and (max-width: 600px) {
   .gif-four-lower{
     position: absolute;
-    top: 2800px;
+    top: 2775px;
     left: 185px;
     mix-blend-mode: multiply;
     width: 200px;
@@ -1653,7 +1655,7 @@ p {
   }
   .button-container{
     position: absolute;
-    top:  2600px;
+    top:  2575px;
     left: 8.5%;
     height: 25px;
     width: auto;
