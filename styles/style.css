@@ -208,6 +208,19 @@ p {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .sm-page-container {
+    max-width: 210mm;
+    height:142.5mm;
+    margin: auto;
+    overflow-y: hidden;
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.35);
+    position: relative;
+    overflow-x: hidden;
+
+  }
+}
+
 .edition-title{
   position: absolute;
   display: none;
@@ -744,6 +757,14 @@ p {
 @media screen and (max-width: 600px) {
   .ac-container input:checked ~ article.ac-large {
       height: 100mm;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ac-container input:checked ~ article.ac-large {
+      height: 82.5mm;
       overflow-y: scroll;
       overflow-x: hidden;
   }
