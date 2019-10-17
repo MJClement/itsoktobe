@@ -177,7 +177,7 @@ p {
       position: relative;
       width: 50%;
       margin:  0 auto;
-      top: 25%;
+      top: 27.5%;
       }
 
     .fadeOut {
@@ -220,6 +220,7 @@ p {
 
   }
 }
+
 
 .edition-title{
   position: absolute;
