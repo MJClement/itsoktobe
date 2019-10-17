@@ -613,24 +613,6 @@ p {
 }
 }
 
-@media screen and (max-width: 400px) {
-.name-tucci {
-  position: relative;
-  display: inline-block;
-  z-index: 30;
-  top:-865px;
-  left:75px;
-
-}
-
-.subname-tucci {
-  position: relative;
-  display: inline-block;
-  z-index: 30;
-  top:-840px;
-  left:-95px;
-}
-}
 
 .name-brittany {
   position: relative;
