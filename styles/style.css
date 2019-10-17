@@ -599,8 +599,8 @@ p {
   position: relative;
   display: inline-block;
   z-index: 30;
-  top:-660px;
-  left:-85px;
+  top:-665px;
+  left:-100px;
 
 }
 
@@ -608,11 +608,29 @@ p {
   position: relative;
   display: inline-block;
   z-index: 30;
-  top:-705px;
-  left:135px;
+  top:-710px;
+  left:125px;
 }
 }
 
+@media screen and (max-width: 400px) {
+.name-tucci {
+  position: relative;
+  display: inline-block;
+  z-index: 30;
+  top:-865px;
+  left:75px;
+
+}
+
+.subname-tucci {
+  position: relative;
+  display: inline-block;
+  z-index: 30;
+  top:-840px;
+  left:-95px;
+}
+}
 
 .name-brittany {
   position: relative;
