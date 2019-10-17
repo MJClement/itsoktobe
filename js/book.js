@@ -1,12 +1,9 @@
+function init() {
 
+  setTimeout(function(){
 
-// 
-//   function init() {
-//
-// setTimeout(function(){
-//
-//   $(".loadingpage").fadeOut(600)
-//
-// }, 2);
-//
-// }
+    $(".loadingpage").fadeOut(600)
+
+  }, 6000);
+
+}
