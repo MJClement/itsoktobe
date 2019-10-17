@@ -1,6 +1,4 @@
-function init() {
 
-<<<<<<< master
 function init() {
   const [loader] = document.querySelectorAll('.loadingpage');
 
@@ -16,12 +14,3 @@ function init() {
 }
 
 init();
-=======
-  setTimeout(function(){
-
-    $(".loadingpage").fadeOut(600)
-
-  }, 6000);
-
-}
->>>>>>> master
