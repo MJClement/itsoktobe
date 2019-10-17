@@ -159,19 +159,33 @@ p {
       z-index: 200;
 		}
 
+    <<<<<<< master
+     .loadingpage {
+      opacity: 1;
 
-.loadingpage {
+    =======
 
-  position: absolute;
-  z-index: 1000;
-  width:100%;
-  height: 100%;
-  background: pink;
+    .loadingpage {
 
-  background-image: url("../assets/circle.png");
-  background-size:200px, 200px;
+    >>>>>>> master
+      position: absolute;
+      z-index: 1000;
+      width:100%;
+      height: 100%;
+      background: pink;
 
-}
+      background-image: url("../assets/circle.png");
+      background-size:200px, 200px;
+
+    <<<<<<< master
+      transition: opacity 2s .6s ease-out;
+    }
+
+    .fadeOut {
+      opacity: 0;
+    =======
+    >>>>>>> master
+    }
 
 .sm-page-container {
   max-width: 210mm;
