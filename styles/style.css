@@ -121,6 +121,7 @@ p {
     display: none;
   }
 }
+
 #slideout {
 			position: fixed;
 			top: 10px;
@@ -162,14 +163,22 @@ p {
      .loadingpage {
       opacity: 1;
       position: absolute;
-      z-index: 1000;
+      z-index: 150;
       width:100%;
       height: 100%;
-      background: pink;
-      background-image: url("../assets/circle.png");
-      background-size:200px, 200px;
+      background-color: snow;
       transition: opacity 2s .6s ease-out;
     }
+
+    .loadingimage{
+      animation: rotation 10s infinite linear;
+      display: block;
+      color: red;
+      position: relative;
+      width: 50%;
+      margin:  0 auto;
+      top: 25%;
+      }
 
     .fadeOut {
       opacity: 0;
